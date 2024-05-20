@@ -16,7 +16,7 @@ body {
 ul li {
   list-style-type: none;
 }
-
+/* task-2 */
 .gallery {
   display: flex;
   align-items: center;
@@ -33,7 +33,9 @@ ul li {
   width: 360px;
   height: 300px;
 }
+/* ////////////////////////////////////////////////// */
 
+/* task-4 */
 .login-form {
   display: flex;
   align-items: center;
@@ -59,4 +61,68 @@ ul li {
   border: 0;
   color: white;
   background-color: rgba(78, 117, 255, 1);
+}
+/* ////////////////////////////////////////////////////// */
+
+/* task-5 */
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.change-color {
+  width: 148px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  background-color: rgba(78, 117, 255, 1);
+}
+/* ////////////////////////////////////////////////////// */
+
+/* task-6 */
+
+div#controls {
+  width: 486px;
+  height: 104px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: rgba(246, 246, 254, 1);
+  margin: 0 auto;
+}
+
+button[data-create] {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  background-color: rgba(78, 117, 255, 1);
+}
+
+button[data-destroy] {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  background-color: rgba(255, 78, 78, 1);
+}
+
+div > input {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+div#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 486px;
+  height: 134px;
+  margin: 0 auto;
+  gap: 44px;
 }
